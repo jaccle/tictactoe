@@ -1,0 +1,132 @@
+body {
+   background-image: url(/background.jpg);
+   font-family: 'Fredericka the Great', serif;
+   text-align: center;
+}
+
+.wrapper {
+   width: 65vmin;
+   height: 65vmin;
+   padding: 0 auto 10%;
+   margin: 0 auto;
+   bottom: 10px;
+   display: 
+}
+
+h1 {
+   font-size: 8vmin;
+}
+
+h3 {
+   position: fixed;
+   font-size: 30px;
+   right: 2%;
+   top: 2%;
+}
+
+h4 {
+   position: fixed;
+   right: 2%;
+   bottom: 2%;
+}
+
+a{
+   position: fixed;
+   cursor: pointer;
+   left: 2%;
+   bottom: 2%;
+}
+.menu {
+   width: 15%;
+   position: absolute;
+   text-align: left;
+   left: 5%;
+}
+.names input {
+   width: 75%;
+   padding: 1%;
+   text-align: justify;
+}
+
+.label {
+   font-size: 21px;
+/*   background-color: #ddd;*/
+   .
+}
+.options {
+   font-family: monospace;
+   font-size: 17px;
+   padding-left: 2%;
+}
+
+#reset {
+   font-family: 'Fredericka the Great', serif;
+   font-size: 20px;
+   border: #444 double 5px;
+   margin: 3%;
+   border-radius: 2px;
+}
+
+.winner {
+   color: oldlace;
+   text-align: center;
+   opacity: 0;
+   display: none;
+   font-size: 15vmax;
+   margin: auto;
+   position: fixed;
+   transform: translateY(100%);
+   transition: transform 0.5s;
+}
+/*
+ [id ^= "winner"]: checked + .winner {
+    opacity: 1;
+    display: block;
+    transform: translateY(0);
+    transition: all 0.5 s 0.5 s;
+ }
+*/
+
+table {
+   min-width: 300px;
+   min-height: 300px;
+   width: 100%;
+   height: 100%;
+   border-collapse: collapse;
+}
+
+td {
+   box-sizing: border-box;
+   width: 33%;
+   height: 33%;
+   font-size: 15vmin;
+   padding: 0;
+   margin: 0;
+}
+
+.empty {
+   opacity: 0.6;
+   cursor: pointer;
+}
+
+.left,
+.center {
+   border-right: 10px solid black;
+}
+
+.right,
+.center {
+   border-left: 10px solid black;
+}
+
+.top,
+.middle {
+   border-bottom: 10px solid black;
+}
+
+.bottom,
+.middle {
+   border-top: 10px solid black;
+}
+
+/*@media if  certain size four corners disappear*/

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>Tic-Tac-Toe</title>
+   <link rel="stylesheet" href="style.css">
+   <link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+   <h2 class="winner"></h2>
+   <h3 class="player"></h3>
+   <h4 class="timer"></h4>
+   <a href="https://github.com/missjorie/tictactoe.git"><img src="/github-grunge.png" alt="github"></a>
+
+   <div class="menu">
+      <label class="label">OPTIONS</label>
+      <div class="options-menu">
+         <input type="checkbox" name="timer" id="timer" class="options">
+         <label for="timer" class="options">Timed Turns</label><br>
+         
+         <input type="checkbox" name="show-timer" id="show-timer" class="options">
+         <label for="show-timer" class="options">Show Timer</label><br>
+         
+         <input type="checkbox" name="enter-names" id="enter-names" class="options">
+         <label for="enter-names" class="options">Enter Names</label><br>
+         <div class="names">
+            <label for="x">X:&nbsp;</label><input type="text" id="x"><br>
+            <label for="o">O:&nbsp;</label><input type="text" id="o">
+         </div>
+         
+         <input type="checkbox" name="show-name-turn" id="turn" class="options">
+         <label for="turn" class="options">Whose turn?</label>
+      </div>
+   </div>
+
+   <div class="wrapper">
+      <h1>TIC-TAC-TOE</h1>
+      <table>
+         <tr>
+            <td class="top left empty" id="A1"></td>
+            <td class="top center empty" id="B1"></td>
+            <td class="top right empty" id="C1"></td>
+         </tr>
+         <tr>
+            <td class="middle left empty" id="A2"></td>
+            <td class="middle center empty" id="B2"></td>
+            <td class="middle right empty" id="C2"></td>
+         </tr>
+         <tr>
+            <td class="bottom left empty" id="A3"></td>
+            <td class="bottom center empty" id="B3"></td>
+            <td class="bottom right empty" id="C3"></td>
+         </tr>
+      </table>
+      <input type="submit" value="New Game" id="reset"></input>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+
+</html>
