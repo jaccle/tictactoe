@@ -111,14 +111,6 @@ function winnerC(clas) {
 }
 
 function disabled() {
-   timerID.addEventListener("click", function () {
-      if (timerID.checked) {
-         showID.disabled = false;
-      } else {
-         showID.disabled = true;
-         showID.checked = false;
-      }
-   });
    enterNames.addEventListener("click", function () {
       if (enterNames.checked) {
          for (i = 0; i < namesCl.length; i++) {
@@ -152,18 +144,6 @@ function player() {
    }
 }
 
-//help please!
-function timer() {
-   timerID.addEventListener("click", function () {
-      if (timerID.checked) {
-         var timer = setInterval(function () {
-            xo.shift().push("O", "X");
-         }, 5000);
-      } else if (timerID.checked = false){
-         window.clearInterval(timer);
-      }
-   });
-}
 
 
 
@@ -200,10 +180,6 @@ function timer() {
 //    }, 2000)
 ///also want clearTimeout for when answer is entered
 
-function showTimer() {
-   //if show timer is checked or clicked, display timer in lower left corner
-   //if clicked again/unchecked, hide timer
-}
 
 //if 
 
@@ -255,7 +231,6 @@ window.onload = function () {
    hoverOn();
    hoverOff();
    disabled();
-//   timer();
    turnID.addEventListener("click", player);
    showID.disabled = true;
    for (i = 0; i < namesCl.length; i++) {
