@@ -17,7 +17,7 @@ var c1 = document.getElementById("C1");
 var playerNm = document.getElementsByTagName("h3")[0];
 var namesCl = document.getElementsByClassName("names");
 var enterNames = document.getElementById("enter-names");
-var cssStr = "color: 'oldlace';text-align: center;opacity: 1;display: block;font-size: 15vmax; width: 80%;margin: 10%;position: fixed;animation: fadein 0.2s;transform: translateY(-1);transition: all 0.5s;";
+var cssStr = "color: 'oldlace';text-align: center;opacity: 1;display: block;font-size: 15vmax; width: 70%;margin: 10%;position: fixed;animation: fadein 0.2s;transform: translateY(-1);transition: all 0.5s;";
 /////////////////////////////////////////////////////
 
 
